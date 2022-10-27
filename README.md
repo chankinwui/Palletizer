@@ -133,5 +133,6 @@ The score is negative since the hole is bigger than the shorter side of the box.
 - Apply to DPL
 - Execution speed optimization, such as use C++ and apply more Chess programming skills.
 - Use "smarter" strategies such as pre-built patterns.
+- Enhance the evaluation functions, and add more to deal with different conditions.
 - bug fix
 
