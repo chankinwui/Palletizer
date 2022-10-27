@@ -131,4 +131,7 @@ The score is negative since the hole is bigger than the shorter side of the box.
 ## Works to do
 - Apply to 3D
 - Apply to DPL
+- Execution speed optimization, such as use C++ and apply more Chess programming skills.
+- Use "smarter" strategies such as pre-built patterns.
+- bug fix
 
