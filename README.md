@@ -22,6 +22,24 @@ But I am stupid but lazy too, so I bruteforce all the "possible" moves and let t
 
 ## Evaluation functions
 
-### Touched perimeter
-1. ![1666870815726](https://user-images.githubusercontent.com/3295412/198274984-75000732-200e-4439-bd6b-013321faaaf5.png)
+### Touched perimeter (Assume width=2,height=1)
+1. touched=2+2, total=6+6, score=(2+2)/(6+6)
+
+![1666870815726](https://user-images.githubusercontent.com/3295412/198274984-75000732-200e-4439-bd6b-013321faaaf5.png)
+
+2. touched=1+1, total=6+6, score=(1+1)/(6+6)
+
+
+![1666871243520](https://user-images.githubusercontent.com/3295412/198276149-90fdef76-02fa-4c72-be3d-d9becc029d54.png)
+
+### Connected boxes
+1. score=connected=1+2+1
+
+
+![1666871382357](https://user-images.githubusercontent.com/3295412/198276593-345c318e-37af-4c03-9e7b-2b7d78d66321.png)
+
+2. score=connected=2+2+2
+
+
+![image](https://user-images.githubusercontent.com/3295412/198276700-2051f183-3901-497e-8685-5760f3ea33c1.png)
 
