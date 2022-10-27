@@ -13,7 +13,7 @@ Either you are a Master or Novice depends on how "fast" and how "deep" you can l
 The goal is capture the King as soon as possible, which is find the shortest path to get the maximum score.
 
 ## Pallet
-The MPL problem and the Distributor Pallet Loading (DPL) problem (place different size boxes into a fixed size pallet) are much like chess playing, except that there is no King to be captured. The DPL problem is believed to be NP-hard, that is you cannot tell "win or lose", but you can say "good or bad" by experience (after trial and error for a few or more than billion time). The MPL problem is easier, there should be an optimial solution in given conditions, normally it is place as many boxes as possible in a stable manner. Human is clever and lazy, we can transform the DPL problem into MPL problem by using standard size boxes. And use many heuristic patterns to find the optimial solution.
+The MPL problem and the Distributor Pallet Loading (DPL) problem (place different size boxes into a fixed size pallet) are much like chess playing, except that there is no King to be captured. The DPL problem is believed to be NP-hard, that is you cannot tell "win or lose", but you can say "good or bad" by experience (after trial and error for a few or more than billion time). The MPL problem is easier, there should be an optimial solution in given conditions (non-guillotine pattern), normally it is place as many boxes as possible in a stable manner. Human is clever and lazy, we can transform the DPL problem into MPL problem by using standard size boxes. And use many heuristic patterns to find the optimial solution.
 
 But I am stupid but lazy too, so I bruteforce all the "possible" moves and let the computer do the hardwork. The following assumption should be clear:
 
@@ -63,5 +63,31 @@ But I am stupid but lazy too, so I bruteforce all the "possible" moves and let t
 
 ![image](https://user-images.githubusercontent.com/3295412/198279809-65a7a725-9248-4c48-84d4-f9205155d4f3.png)
 
+
+## How to use and examples
+
+### Description file
+Create a text file and organize the parameters in json format. The unit is arbitrary.
+
+maxWidth,maxHeight=pallet size, no box should outside this
+
+boxLongEdge,boxShortEdge=box size
+
+targetLevel=sometime we may need to find the best pattern with a few boxes only. Set to 9999 if not use.
+
+
+
+![1666872974744](https://user-images.githubusercontent.com/3295412/198281836-d599d898-53ae-45d1-8b96-54cf7301ec89.png)
+
+
+### Interface
+
+Press "Create new" and select a description file, press "GetScore" to evaluate the current pattern described by the file.
+
+Press "GetAll" to find the possible combinations. Press "Stop" at any time.
+
+After the result is ready (maybe a few seconds or a few days!) ,press "Display result".
+
+![image](https://user-images.githubusercontent.com/3295412/198281658-c53abb87-d2ed-4e18-831a-1976bd1a5735.png)
 
 
