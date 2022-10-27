@@ -13,7 +13,15 @@ Either you are a Master or Novice depends on how "fast" and how "deep" you can l
 The goal is capture the King as soon as possible, which is find the shortest path to get the maximum score.
 
 ## Pallet
-The MPL problem and the Distributor Pallet Loading (DPL) problem (place different size boxes into a fixed size pallet) are much like chess playing, except that there is no King to be captured. The DPL problem is believed to be NP-hard, that is you cannot tell "win or lose", but you can say "good or bad" by experience (after trial and error for a few or more than billion time). The MPL problem is easier, there should be an optimial solution in given conditions, normally it is place as many boxes as possible in a stable manner. Human is clever and lazy, we can transform the DPL problem into MPL problem by using standard size boxes. And use many heuristic pattern to find the optimial solution.
+The MPL problem and the Distributor Pallet Loading (DPL) problem (place different size boxes into a fixed size pallet) are much like chess playing, except that there is no King to be captured. The DPL problem is believed to be NP-hard, that is you cannot tell "win or lose", but you can say "good or bad" by experience (after trial and error for a few or more than billion time). The MPL problem is easier, there should be an optimial solution in given conditions, normally it is place as many boxes as possible in a stable manner. Human is clever and lazy, we can transform the DPL problem into MPL problem by using standard size boxes. And use many heuristic patterns to find the optimial solution.
 
 But I am stupid but lazy too, so I bruteforce all the "possible" moves and let the computer do the hardwork. The following assumption should be clear:
-*a new box will be placed to the corner of an existing boxes
+
+- A new box will be placed to the corner of an existing boxes (align the corner to corner. In some cases may need to align edge to midlle,edge to 1/3 of width or even 1/10. But you will not place in a random position along the edge normally.)
+- The pallet size and boxes' size should be "reasonable",for example the number of boxes should be less than 20 in a layer (<20 levels in the decision tree which should equal to the Master of Masters). If need more, you can add some boxes manaully (like the open book in Chess).
+
+## Evaluation functions
+
+### Touched perimeter
+1. ![1666870815726](https://user-images.githubusercontent.com/3295412/198274984-75000732-200e-4439-bd6b-013321faaaf5.png)
+
