@@ -43,3 +43,25 @@ But I am stupid but lazy too, so I bruteforce all the "possible" moves and let t
 
 ![image](https://user-images.githubusercontent.com/3295412/198276700-2051f183-3901-497e-8685-5760f3ea33c1.png)
 
+### Bounding area
+1. score=8/9. This is interlock pattern which is preferred in many cases. Multiply this if necessary. Reduce the total score if the hole's size is more than the minimum side of the box,since it will make the boxes unstable.
+
+![image](https://user-images.githubusercontent.com/3295412/198278257-d70f8395-ca13-4df8-9a16-4ffd89885d4c.png)
+
+2. score=8/8
+
+![1666871942282](https://user-images.githubusercontent.com/3295412/198278472-6029ecb5-9e1f-4c37-a562-da3195c7bc90.png)
+
+### Final shape
+1. Preferred
+
+
+![1666872431065](https://user-images.githubusercontent.com/3295412/198280124-3ea42e19-7917-46f1-b8dd-addd1450bd1f.png)
+
+
+2. Not preferred
+
+![image](https://user-images.githubusercontent.com/3295412/198279809-65a7a725-9248-4c48-84d4-f9205155d4f3.png)
+
+
+
