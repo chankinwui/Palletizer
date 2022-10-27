@@ -1,0 +1,11 @@
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\bin\Release\PalletOrganizerV2.exe.config
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\bin\Release\PalletOrganizerV2.exe
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\bin\Release\PalletOrganizerV2.pdb
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.csproj.AssemblyReference.cache
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.Form1.resources
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.Properties.Resources.resources
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.csproj.GenerateResource.cache
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.csproj.CoreCompileInputs.cache
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.exe
+D:\Projects\Innovationteam\Program\PalletOrganizer\PalletOrganizerV2\obj\Release\PalletOrganizerV2.pdb

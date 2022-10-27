@@ -1,0 +1,8 @@
+{"maxWidth":200,"maxHeight":200,
+"boxLongEdge":40,"boxShortEdge":20,
+"targetLevel":8,"boxes":[
+{"box":[60,60,40,20]},
+{"box":[100,60,20,40]},
+{"box":[60,80,20,40]},
+{"box":[80,100,40,20]},
+]}

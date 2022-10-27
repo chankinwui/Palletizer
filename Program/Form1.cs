@@ -116,12 +116,13 @@ namespace PalletOrganizerV3
             boxLongEdge = (int)numericUpDown4.Value;
             boxShortEdge = (int)numericUpDown5.Value;
 
-
-            //make sure even
+            /*
+            //make sure even if use middle point
             maxWidth += maxWidth % 2;
             maxHeight+= maxHeight % 2;
             boxLongEdge+= boxLongEdge % 2;
             boxShortEdge+= boxShortEdge % 2;
+            */
 
             button5.Enabled = false;
 
