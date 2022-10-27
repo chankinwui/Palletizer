@@ -53,7 +53,7 @@ But I am stupid but lazy too, so I bruteforce all the "possible" moves and let t
 ![1666871942282](https://user-images.githubusercontent.com/3295412/198278472-6029ecb5-9e1f-4c37-a562-da3195c7bc90.png)
 
 ### Final shape
-1. Preferred
+1. Preferred since we will wrap the pallet in real world
 
 
 ![1666872431065](https://user-images.githubusercontent.com/3295412/198280124-3ea42e19-7917-46f1-b8dd-addd1450bd1f.png)
@@ -90,4 +90,39 @@ After the result is ready (maybe a few seconds or a few days!) ,press "Display r
 
 ![image](https://user-images.githubusercontent.com/3295412/198281658-c53abb87-d2ed-4e18-831a-1976bd1a5735.png)
 
+
+### Examples
+4 boxes interlock pattern, add 4 more boxes to find the best pattern
+
+{"maxWidth":200,"maxHeight":200,
+"boxLongEdge":40,"boxShortEdge":20,
+"targetLevel":8,"boxes":[
+{"box":[60,60,40,20]},
+{"box":[100,60,20,40]},
+{"box":[60,80,20,40]},
+{"box":[80,100,40,20]},
+]}
+
+![1666874689653](https://user-images.githubusercontent.com/3295412/198287706-fb3e74f3-bff9-4b65-a447-1bff9647401f.png)
+
+![image](https://user-images.githubusercontent.com/3295412/198288709-c168bacc-ae9f-4a9b-a167-d27964427d1c.png)
+
+
+The score is negative since the hole is bigger than the shorter side of the box.
+
+
+#### A real example (used in 250mL drinks)
+{"maxWidth":120,"maxHeight":100,"boxLongEdge":36,"boxShortEdge":20,"targetLevel":99999,"boxes":[
+{"box":[0,0,36,20]},
+{"box":[0,20,36,20]},
+{"box":[0,40,36,20]},
+{"box":[0,60,20,36]},
+{"box":[20,60,20,36]},
+{"box":[36,0,36,20]},
+{"box":[72,0,36,20]},
+]}
+
+![1666875068926](https://user-images.githubusercontent.com/3295412/198289141-efcb29f1-0f7a-4285-b53d-622be0448c1a.png)
+
+![image](https://user-images.githubusercontent.com/3295412/198289373-021ca180-e6b5-4abc-b293-78d4e9e4bf5a.png)
 
