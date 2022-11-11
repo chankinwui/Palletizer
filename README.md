@@ -17,7 +17,7 @@ The MPL problem and the Distributor Pallet Loading (DPL) problem (place differen
 
 But I am stupid but lazy too, so I bruteforce all the "possible" moves and let the computer do the hardwork. The following assumption should be clear:
 
-- A new box will be placed to the corner of an existing boxes (align the corner to corner. In some cases may need to align edge to midlle,edge to 1/3 of width or even 1/10. But you will not place in a random position along the edge normally.)
+- A new box will be placed to the corner of an existing boxes (align the corner to corner. In some cases may need to align edge to middle,edge to 1/3 of width or even 1/10. But you will not place in a random position along the edge normally.)
 - The pallet size and boxes' size should be "reasonable",for example the number of boxes should be less than 20 in a layer (<20 levels in the decision tree which should equal to the Master of Masters). If need more, you can add some boxes manaully (like the open book in Chess).
 
 ## Evaluation functions
